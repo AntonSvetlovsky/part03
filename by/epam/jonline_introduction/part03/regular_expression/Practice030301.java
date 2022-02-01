@@ -4,14 +4,16 @@
  *   отсортировать лексемы в предложении по убыванию количества вхождений заданного символа, а в случае равенства – по алфавиту.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.regular_expression;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Practice030301 {
+
 	public static void main(String[] args) {
+
 		String str = "Полиморфизм (polymorphism) — механизм, использующий одно и то же имя метода для решения похожих, но"
 				+ " несколько отличающихся задач в различных объектах при наследовании из одного суперкласса. Целью полиморфизма "
 				+ "является использование одного имени при выполнении общих для суперкласса и подклассов действий.\n"
@@ -30,6 +32,7 @@ public class Practice030301 {
 	}
 
 	public static void select(String str) {
+
 		int a;
 		String message = "Menu:\n" + "1. Sort paragraphs by number of sentences. \n"
 				+ "2. Sort words by length in each sentence. \n"

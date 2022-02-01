@@ -3,10 +3,12 @@
  * повторив каждый символ дважды.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.string_as_object;
 
 public class Practice030206 {
+
 	public static void main(String[] args) {
+
 		StringBuilder str1 = new StringBuilder();
 		StringBuilder str2 = new StringBuilder();
 

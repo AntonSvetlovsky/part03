@@ -6,7 +6,7 @@
  * Пользоваться готовыми парсерами XML для решения данной задачи нельзя.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.regular_expression;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -38,22 +38,26 @@ public class Practice030302 {
 		String element = "";
 
 		while (matcher.find()) {
-			element = matcher.group();
+			element = matcher.group().trim();
 
-			if (element.matches("<[^/<>]+>")) {
-				System.out.println("Start tag");
-				System.out.println("Tag name = " + findTagName(element));
+			if (element.length() > 0) {
+				if (element.matches("<[^/<>]+>")) {
+					System.out.println("Start tag");
+					System.out.println("Tag name = " + findTagName(element));
+				}
+				if (element.matches("</[^<>]+>")) {
+					System.out.println("End tag");
+					System.out.println("Tag name = " + findTagName(element));
+				}
+				if (hasAttributes(element)) {
+					System.out.println("Attributes = " + findAttributes(element));
+				}
+				if (element.matches("[^<>]+")) {
+					System.out.println("Text = " + element);
+				}
+				System.out.println();
 			}
-			if (element.matches("</[^<>]+>")) {
-				System.out.println("End tag");
-				System.out.println("Tag name = " + findTagName(element));
-			}
-			if (hasAttributes(element)) {
-				System.out.println("Attributes = " + findAttributes(element));
-			}
-			if (element.matches("[a-zA-Z_0-9а-яА-Я]+")) {
-				System.out.println("Text = " + element);
-			}
+
 		}
 	}
 

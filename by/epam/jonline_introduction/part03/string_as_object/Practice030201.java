@@ -3,9 +3,10 @@
  * подряд идущих пробелов в нем.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.string_as_object;
 
 public class Practice030201 {
+
 	public static void main(String[] args) {
 		String str = " test.   test      !     test ,        .  ";
 		int max = 0;

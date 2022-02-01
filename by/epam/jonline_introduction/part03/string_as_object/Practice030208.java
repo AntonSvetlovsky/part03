@@ -4,12 +4,14 @@
  * может быть несколько, не обрабатывать.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.string_as_object;
 
 import java.util.Scanner;
 
 public class Practice030208 {
+
 	public static void main(String[] args) {
+
 		String str;
 		String[] words;
 		int max;

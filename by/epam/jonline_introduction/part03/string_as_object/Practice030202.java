@@ -2,9 +2,10 @@
  * В строке вставить после каждого символа 'a' символ 'b'.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.string_as_object;
 
 public class Practice030202 {
+
 	public static void main(String[] args) {
 		StringBuilder strB = new StringBuilder("aTest a test aa aTest test.a");
 

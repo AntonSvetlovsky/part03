@@ -2,11 +2,12 @@
  * Замените в строке все вхождения 'word' на 'letter'.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.string_as_array;
 
 import java.util.Arrays;
 
 public class Practice030102 {
+
 	public static void main(String[] args) {
 		String str = "Little word. Big word.";
 		String newStr;

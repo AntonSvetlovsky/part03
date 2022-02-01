@@ -2,12 +2,14 @@
  *  Проверить, является ли заданное слово палиндромом.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.string_as_object;
 
 import java.util.Scanner;
 
 public class Practice030203 {
+
 	public static void main(String[] args) {
+
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		StringBuilder str;

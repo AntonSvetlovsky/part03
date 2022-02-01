@@ -3,14 +3,16 @@
  * заменить на одиночные пробелы. Крайние пробелы в строке удалить.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.string_as_array;
 
 public class Practice030105 {
+
 	public static void main(String[] args) {
 		String str = "    Test test   test.       Test   test. ";
 		char[] charArr = str.toCharArray();
 		char[] charArrTemp1 = new char[charArr.length + 1];
 		char[] charArrTemp2;
+
 		int i = 0;
 		int index = 0;
 

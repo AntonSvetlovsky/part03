@@ -2,12 +2,14 @@
  * В строке найти количество чисел.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.string_as_array;
 
 public class Practice030104 {
+
 	public static void main(String[] args) {
 		String str = "Test 1 test 25 test 7001 54 test 3.14 test 55.89 test 5. ";
 		char[] charArr = str.toCharArray();
+
 		int q = 0;
 		int i = 0;
 

@@ -3,7 +3,7 @@
  * Преобразовать названия в snake_case.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.string_as_array;
 
 public class Practice030101 {
 

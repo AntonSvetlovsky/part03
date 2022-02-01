@@ -3,10 +3,12 @@
  * строки встречается буква “а”.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.string_as_object;
 
 public class Practice030205 {
+
 	public static void main(String[] args) {
+
 		String str = "test a: data, database, test aaa adata.";
 		int q;
 

@@ -3,12 +3,14 @@
  * во введенной строке. Учитывать только английские буквы.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.string_as_object;
 
 import java.util.Scanner;
 
 public class Practice030209 {
+
 	public static void main(String[] args) {
+
 		String str;
 		int upperCase;
 		int lowerCase;

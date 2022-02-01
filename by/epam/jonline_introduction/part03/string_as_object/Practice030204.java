@@ -3,10 +3,12 @@
  * из частей слова “информатика” слово “торт”.
  */
 
-package by.epam.jonline_introduction.part03;
+package by.epam.jonline_introduction.part03.string_as_object;
 
 public class Practice030204 {
+
 	public static void main(String[] args) {
+
 		String resource;
 		String target;
 		String result;
